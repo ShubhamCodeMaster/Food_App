@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { LoginBg, Logo } from "../assets"
 import { LoginInput } from "../components";
-import { FaEnvelope, FaLock } from "../assets/icons"
+import { FaEnvelope, FaLock, FcGoogle } from "../assets/icons"
 import { motion } from "framer-motion";
 import { buttonClcik } from "../animations"
 const Login = () => {
@@ -95,6 +95,11 @@ const Login = () => {
         <p className="text-white">or</p>
         <div className="w-24 h-[1px] rounded-md bg-white"></div>
       </div>
+      <motion.div{...buttonClcik} className="flex items-center justify-center px-20 py-2 bg-lightOverlay backdrop-blur-md cursor-pointer rounded-3xl gap-4"
+      >
+          <FcGoogle className="text-3xl"/>
+          <p className="capitalize text-base text-headingColor">Sign with Google</p>
+      </motion.div>
     </div>
   </div>
 };
