@@ -2,7 +2,14 @@ import {getApp,getApps,initializeApp} from "firebase/app";
 import {getStorage} from "firebase/storage";
 
 
-
+// const firebaseConfig = {
+//   apiKey: "AIzaSyB4Q9Ehs5BWwoj_3dHjV3aLftPrFQ4EHEg",
+//   authDomain: "food-app-97714.firebaseapp.com",
+//   projectId: "food-app-97714",
+//   storageBucket: "food-app-97714.appspot.com",
+//   messagingSenderId: "487661094570",
+//   appId: "1:487661094570:web:7f9f3bd507e7f3473832d3"
+// };
 
 
 
